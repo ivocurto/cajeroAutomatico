@@ -35,11 +35,11 @@ lista = prompt('Lista de productos \n1- Iphone 13 \n2- Cargador \n3- Airpods \nP
 }
 
 if(carrito[0] != null && carrito[1] == null){
-    alert(`Tienes estos items en tu carrito: ${carrito[0].nombre}\nPrecio: ${carrito[0].precio}`)
+    alert(`Tienes estos items en tu carrito: ${carrito[0].nombre}\nPrecio: $${carrito[0].precio}`)
 }
 else if(carrito[1] != null  && carrito[2] == null){
-    alert(`Tienes estos items en tu carrito: ${carrito[0].nombre} ${carrito[1].nombre} \nPrecio: ${carrito[0].precio + carrito[1].precio}`)
+    alert(`Tienes estos items en tu carrito: ${carrito[0].nombre} ${carrito[1].nombre} \nPrecio: $${carrito[0].precio + carrito[1].precio}`)
 }
 else if(carrito[2] != null){
-    alert(`Tienes estos items en tu carrito: ${carrito[0].nombre} ${carrito[1].nombre} ${carrito[2].nombre} \nPrecio: ${carrito[0].precio + carrito[1].precio + carrito[2].precio}`)
+    alert(`Tienes estos items en tu carrito: ${carrito[0].nombre} ${carrito[1].nombre} ${carrito[2].nombre} \nPrecio: $${carrito[0].precio + carrito[1].precio + carrito[2].precio}`)
 }
